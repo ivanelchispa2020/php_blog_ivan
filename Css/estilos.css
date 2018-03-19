@@ -1,0 +1,267 @@
+@charset "utf-8";
+
+/* HEADER  */
+
+
+.navbar { margin-bottom:0}
+#barra{ background:black; color:#FBFBFB; font-family:COMIC SANS MS; font-size:16px; font-weight:bold; margin-bottom:10px;}
+#b_categoria{text-align:center;}
+#resaltame{ color:#4D1A1B; font-family:COMIC SANS MS; font-size:20px; font-weight:bold}
+/*     POST     */
+.main { margin-bottom:20px; margin-top:20px;}
+.post { margin:10px; padding-bottom:20px; margin-bottom:20px; font-family:COMIC SANS MS; font-size:14;}
+.post .post-title a{ color:#875824;}
+.post .thumb{ margin-right:10px; width:40%;}
+.post .thumb img{ width:100%;}
+.post .contenedor-botones { width:100%}
+.post-contenido { padding:5px; font-family:COMIC SANS MS; font-size:16px;}
+.separador{ padding-bottom:90px; margin-bottom: 10px;  margin-top:10px;  border-bottom:1px solid #000000}
+.igualar{ padding-top:-5px;}
+#ultimos_art{ text-align:center; font-family:COMIC SANS MS;}
+#ultimos_art h4{ font-weight:bold; font-size:20px; color:#3AED33}
+.resaltar{ color:#8E6B05; font-size:22px;}
+#contenedor{margin-left:10px; margin-right:10px;}
+#paginas{ text-align:center}
+#ventana1{font-family:COMIC SANS MS; font-size:18px; font-weight:bold; color:#702425;}
+#titulo_posts{ text-align:center; font-family:COMIC SANS MS; font-size:18px; color:#081A85}
+@media screen and (max-width:768px){ 
+	.post .thumb{
+		width:100%;
+		margin-bottom:20px;
+		margin-right:0px;}
+	}
+
+#seccion_categorias{ text-align:center; font-family:COMIC SANS MS; font-weight:bold; font-size:16px; }
+footers{ margin-top:30px;}
+
+#lista{position:absolute; background:#FBF9F9;}
+#lista a{ color:black; margin:10px}
+#seccion_categorias{margin-top:160px;}
+#pagination{text-align:center}
+.busca{ background:#A9F451}
+.pagination{ text-align:center}
+#post_comentario{ border-bottom:2px solid #000000; margin-bottom:40px}
+
+.comentario{ background:#C8F9B1; padding:10px; border:1px solid #000000; margin-bottom:10px; margin-top:5px}
+.resp{background:#D1DBD2; margin-left:50px; padding-top:20px; padding-bottom:10px;}
+.nombre_com{ color:#9B4D09; font-family:COMIC SANS MS; font-size:16px; font-weight:bold}
+.fecha_com{ color:#9B4D09; font-family:COMIC SANS MS; font-size:16px; font-weight:bold}
+.hora_com{ color:#9B4D09; font-family:COMIC SANS MS; font-size:16px; font-weight:bold}
+.comentario_com{ color:#000000; font-family:COMIC SANS MS; font-size:14px; font-weight:bold; text-align:center}
+.resalta_com{ color:#000000; font-family:COMIC SANS MS; font-size:14px; font-weight:bold;}
+#imagen_comentario{ padding-right:20px;}
+.alinear{ text-align:center} 
+   .oculto_nombre{ color:#F30307; font-size:16px}                                   
+	 .oculto_correo{ color:#F30307; font-size:16px}                                   
+	 .oculto_capcha{ color:#F30307; font-size:16px}                                   
+	 .oculto_mensaje{ color:#F30307; font-size:16px}                                   
+#resultado_post{ text-align:center}						
+.resalta_error{ text-align:center; font-family:COMIC SANS MS; font-size:16px; font-weight:bold; color:#FF0509}
+#respuesta_captcha{ color:#F50408; font-family:COMIC SANS MS;font-size:16px; font-weight:bold;}
+.respuesta_error{ text-align:center; font-family:COMIC SANS MS; font-size:20px; font-weight:bold; color:#F5090D}
+.resalta_titulo{ text-align:center; font-family:COMIC SANS MS; font-size:20px; font-weight:bold; color:#B8FB74}
+
+#piechart_3d{ text-align:center; width:900px; height:500px;}
+.resalta_titulo_encuesta{ text-align:center; font-family:COMIC SANS MS; color:#550C5A; font-size:22px; font-weight:bold}
+#encuesta_grafico{ text-align:center}
+#encuesta_grafico label{font-family:COMIC SANS MS; color:#F59902; font-size:18px; font-weight:bold}
+@media(max-width: 480px){
+		.miga-de-pan{ font-size:12px; font-weight:bold}
+        #resaltame{ font-size:8px; font-weight:bold}
+}
+@media(max-width: 480px){
+    .miga-de-pan{ font-size:12px; font-weight:bold}
+        #resaltame{ font-size:18px; font-weight:bold; text-align:center}
+}
+@media(max-width: 240px){
+    
+        #resaltame{ font-size:14px; font-weight:bold; text-align:justify}
+}
+
+@media(max-width: 800px){
+    #busc{ margin-left:-5px}	
+}
+
+
+body{
+	font-family: "Comic Sans Ms";
+	font-weight: bold;
+	font-size: 
+}
+
+#mi_captcha{
+	width:140px;
+	text-align: center;
+	background-color:black;
+	font-family: "Comic Sans Ms";
+	color: 	orange;
+	font-size: 25px;
+}
+
+#mi_captcha2{
+	width:140px;
+	text-align: center;
+	background-color:black;
+	font-family: "Comic Sans Ms";
+	color: 	orange;
+	font-size: 25px;
+}
+
+
+
+
+.mi_envia_comentario:hover{
+	background-color: white;
+	color:green;
+}
+
+.btn_leer_mas:hover{
+	background-color: white;
+	color:blue;
+}
+
+.btn_comentarios:hover{
+	background-color: white;
+	color:green;
+}
+
+.btn_encuestas:hover{
+	background-color: white;
+	color:red;
+}
+
+.btn_votar_ahora:hover{
+	background-color: white;
+	color:orange;
+}
+
+.btn_oculta_muestra:hover{
+	background-color: white;
+	color:blue;
+}
+
+.comentario{
+	background-color:#C4FBFA;
+	border: 1px solid black;
+	padding: 3px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.comentario:hover{
+	background-color: #00DDFE;
+}
+
+.mensaje_comentario{
+	text-align: center;
+	color: #752020;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.correo_comentario{
+	color: blue;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+.mover_derecha{
+	text-align: right;
+}
+
+.fecha_comentario{
+	text-align: right;
+	color: #752020;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.img_comentario{
+	padding-right: 5px;
+}
+
+.resalta_parrafo{
+	padding-left: 3px;
+	color: #FF5705;
+}
+
+.resaltado_titulo_pre{
+	color: #23620D;
+	font-weight: bold;
+}
+
+.titulo_modal{
+	color:#E304D1;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+.arriba{
+	position:fixed;
+	    bottom:30px;
+	    right:20px;
+	    display:none;
+	    opacity: 0.6;
+}
+.arriba:hover{
+		opacity: 1;
+}
+
+
+.mover_abajo{
+	padding-top: 3px;
+}
+
+.respuestas_comentarios{
+	background-color: #FDD0B7;
+	border: 1px solid black;
+	padding: 3px;
+   margin-bottom: 5px;
+   margin-top: 5px;
+
+}
+.respuestas_comentarios:hover{
+	background-color: #FF8401;
+}
+
+.mensaje_respuesta{
+	text-align: center;
+	color:#25055F;
+}
+
+
+.btn_responder_comentario{
+	background-color:#01561B;
+	color:white;
+}
+
+.btn_responder_comentario:hover{
+	background-color: white;
+	color:#01561B;
+}
+
+.resalta_h4{
+	color:blue;
+}
+
+
+.dropdown{
+	color:white;
+}
+.dropdown-menu{
+	 background-color:black;
+	 color: white;
+}
+
+
+.presentame{
+	font-size: 18px;
+}
+
+.resalt{
+	background: white;
+	color: black;
+}
+
